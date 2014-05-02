@@ -1,0 +1,490 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>Validate | PandoraJS</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+  <link rel="canonical" href="pandorajs.github.io/api/validate/classes/Validate.html">
+  <link rel="stylesheet" href="/css/style.css">
+<!--   <link href="//fonts.googleapis.com/css?family=Lato:300,700" rel="stylesheet" type="text/css">
+  <link href='http://fonts.googleapis.com/css?family=Source+Code+Pro:400,700' rel='stylesheet' type='text/css'>
+ --><!--   
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-50206223-1', 'pandorajs.github.io');
+  ga('send', 'pageview');
+</script>
+
+ --></head>
+
+<body class="page">
+  <header id="header">
+  <div class="outer">
+    <div class="inner">
+      <h1 id="logo-wrap">
+        <a href="/" id="logo">Pandora</a>
+      </h1>
+      <nav id="main-nav">
+        <ul id="main-nav-list">
+          
+            <li class="main-nav-item">
+              <a href="/docs/" class="main-nav-link">Docs</a>
+            </li>
+          
+            <li class="main-nav-item">
+              <a href="/api/class/classes/class.html" class="main-nav-link">API</a>
+            </li>
+          
+            <li class="main-nav-item">
+              <a href="https://github.com/pandorajs" class="main-nav-link">Github</a>
+            </li>
+          
+        </ul>
+      </nav>
+    </div>
+  </div>
+</header>
+  <article class="api">
+  <header id="page-banner">
+  <div class="outer">
+    <div class="inner">
+      <h1 class="page-title">API Reference</h1>
+    </div>
+  </div>
+</header>
+  <div class="outer">
+    <div class="inner"></div>
+    <div class="page-content"><header id="api-header">
+  <h1 id="api-title">Validate Class</h1>
+  <div class="api-meta">
+    Defined in <a href="https://github.com/pandorajs/validate/blob/master/src/validate.js#L26">src/validate.js:26</a>
+    
+    
+  </div>
+</header>
+
+<div class="page-entry">
+  <h2 class="api-section-title">Description</h2>
+  <p>Validate<br>目前支持单个表单</p>
+
+  
+    <h2 class="api-section-title">Constructor</h2>
+    <div id="constructor" class="api-item constructor public">
+  <header class="api-item-header">
+    <h3 class="api-item-title">
+      <a href="#constructor">Validate</a>
+    </h3>
+    
+    
+    
+    
+  </header>
+  <div class="api-item-meta">
+    
+      Defined in
+    
+    <a href="https://github.com/pandorajs/validate/blob/master/src/validate.js#L26">src/validate.js:26</a>
+  </div>
+  
+  <div class="api-item-entry">
+    <p>Validate<br>目前支持单个表单</p>
+
+    
+    
+  </div>
+</div>
+  
+  
+    <h2 class="api-section-title">Methods</h2>
+    
+      <div id="method_addError" class="api-item method public">
+  <header class="api-item-header">
+    <h3 class="api-item-title">
+      <a href="#method_addError">addError</a>
+    </h3>
+    
+      <span class="api-item-params">(params, [text])</span>
+    
+    
+    
+    
+  </header>
+  <div class="api-item-meta">
+    
+      Defined in
+    
+    <a href="https://github.com/pandorajs/validate/blob/master/src/validate.js#L339">src/validate.js:339</a>
+  </div>
+  
+  <div class="api-item-entry">
+    <p>显示错误信息<br>如果需要自定义错误显示方式，则在实例里修改此方法。（不要修改原型）</p>
+
+    
+      <h4 class="api-item-subtitle">Parameters</h4>
+      <ul>
+        
+          <li>
+            <strong>params</strong>
+            <span class="api-item-type"><a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Object">Object</a></span>
+            
+            
+              <p>元素参数</p>
+
+            
+          </li>
+        
+          <li>
+            <strong>text</strong>
+            <span class="api-item-type"><a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String">String</a></span>
+            
+              <span class="api-item-flag optional">optional</span>
+            
+            
+              <p>错误信息</p>
+
+            
+          </li>
+        
+      </ul>
+    
+    
+  </div>
+</div>
+    
+      <div id="method_checkRule" class="api-item method public">
+  <header class="api-item-header">
+    <h3 class="api-item-title">
+      <a href="#method_checkRule">checkRule</a>
+    </h3>
+    
+      <span class="api-item-params">(name)</span>
+    
+    
+      <span class="api-item-type"><a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Boolean">Boolean</a></span>
+    
+    
+    
+  </header>
+  <div class="api-item-meta">
+    
+      Defined in
+    
+    <a href="https://github.com/pandorajs/validate/blob/master/src/validate.js#L267">src/validate.js:267</a>
+  </div>
+  
+  <div class="api-item-entry">
+    <p>校验是否符合指定规则</p>
+
+    
+      <h4 class="api-item-subtitle">Parameters</h4>
+      <ul>
+        
+          <li>
+            <strong>name</strong>
+            <span class="api-item-type"><a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Object">Object</a></span>
+            
+            
+              <p>表单元素，rule 规则名，elem 表单元素，value 表单元素值，prop 验证方法或基准值</p>
+
+            
+          </li>
+        
+      </ul>
+    
+    
+      <h4 class="api-item-subtitle">Returns</h4>
+      <ul>
+        <li>
+          <span class="api-item-type"><a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Boolean">Boolean</a></span>
+          
+        </li>
+      </ul>
+    
+  </div>
+</div>
+    
+      <div id="method_checkValidation" class="api-item method public">
+  <header class="api-item-header">
+    <h3 class="api-item-title">
+      <a href="#method_checkValidation">checkValidation</a>
+    </h3>
+    
+    
+    
+    
+  </header>
+  <div class="api-item-meta">
+    
+      Defined in
+    
+    <a href="https://github.com/pandorajs/validate/blob/master/src/validate.js#L293">src/validate.js:293</a>
+  </div>
+  
+  <div class="api-item-entry">
+    <p>检查校验完成情况</p>
+
+    
+    
+  </div>
+</div>
+    
+      <div id="method_clearErrors" class="api-item method public">
+  <header class="api-item-header">
+    <h3 class="api-item-title">
+      <a href="#method_clearErrors">clearErrors</a>
+    </h3>
+    
+    
+    
+    
+  </header>
+  <div class="api-item-meta">
+    
+      Defined in
+    
+    <a href="https://github.com/pandorajs/validate/blob/master/src/validate.js#L315">src/validate.js:315</a>
+  </div>
+  
+  <div class="api-item-entry">
+    <p>清除错误信息</p>
+
+    
+    
+  </div>
+</div>
+    
+      <div id="method_focusError" class="api-item method public">
+  <header class="api-item-header">
+    <h3 class="api-item-title">
+      <a href="#method_focusError">focusError</a>
+    </h3>
+    
+    
+    
+    
+  </header>
+  <div class="api-item-meta">
+    
+      Defined in
+    
+    <a href="https://github.com/pandorajs/validate/blob/master/src/validate.js#L330">src/validate.js:330</a>
+  </div>
+  
+  <div class="api-item-entry">
+    <p>使第一个校验失败的元素获得焦点</p>
+
+    
+    
+  </div>
+</div>
+    
+      <div id="method_getMessage" class="api-item method public">
+  <header class="api-item-header">
+    <h3 class="api-item-title">
+      <a href="#method_getMessage">getMessage</a>
+    </h3>
+    
+      <span class="api-item-params">(name, rule, prop)</span>
+    
+    
+    
+    
+  </header>
+  <div class="api-item-meta">
+    
+      Defined in
+    
+    <a href="https://github.com/pandorajs/validate/blob/master/src/validate.js#L354">src/validate.js:354</a>
+  </div>
+  
+  <div class="api-item-entry">
+    <p>获取错误提示信息</p>
+
+    
+      <h4 class="api-item-subtitle">Parameters</h4>
+      <ul>
+        
+          <li>
+            <strong>name</strong>
+            <span class="api-item-type"><a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String">String</a></span>
+            
+            
+              <p>表单元素的name值</p>
+
+            
+          </li>
+        
+          <li>
+            <strong>rule</strong>
+            <span class="api-item-type"><a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String">String</a></span>
+            
+            
+              <p>当前错误对应的校验规则</p>
+
+            
+          </li>
+        
+          <li>
+            <strong>prop</strong>
+            <span class="api-item-type"><a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String">String</a></span>
+            
+            
+              <p>校验的基准值，比如maxlength=”3”中的”3“</p>
+
+            
+          </li>
+        
+      </ul>
+    
+    
+  </div>
+</div>
+    
+      <div id="method_removeError" class="api-item method public">
+  <header class="api-item-header">
+    <h3 class="api-item-title">
+      <a href="#method_removeError">removeError</a>
+    </h3>
+    
+      <span class="api-item-params">(params)</span>
+    
+    
+    
+    
+  </header>
+  <div class="api-item-meta">
+    
+      Defined in
+    
+    <a href="https://github.com/pandorajs/validate/blob/master/src/validate.js#L369">src/validate.js:369</a>
+  </div>
+  
+  <div class="api-item-entry">
+    <p>移除错误信息</p>
+
+    
+      <h4 class="api-item-subtitle">Parameters</h4>
+      <ul>
+        
+          <li>
+            <strong>params</strong>
+            <span class="api-item-type"><a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Object">Object</a></span>
+            
+            
+              <p>表单元素</p>
+
+            
+          </li>
+        
+      </ul>
+    
+    
+  </div>
+</div>
+    
+      <div id="method_validateElem" class="api-item method public">
+  <header class="api-item-header">
+    <h3 class="api-item-title">
+      <a href="#method_validateElem">validateElem</a>
+    </h3>
+    
+      <span class="api-item-params">(elem)</span>
+    
+    
+    
+    
+  </header>
+  <div class="api-item-meta">
+    
+      Defined in
+    
+    <a href="https://github.com/pandorajs/validate/blob/master/src/validate.js#L219">src/validate.js:219</a>
+  </div>
+  
+  <div class="api-item-entry">
+    <p>验证单个元素</p>
+
+    
+      <h4 class="api-item-subtitle">Parameters</h4>
+      <ul>
+        
+          <li>
+            <strong>elem</strong>
+            <span class="api-item-type"><a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Object">Object</a></span>
+            
+            
+              <p>表单元素</p>
+
+            
+          </li>
+        
+      </ul>
+    
+    
+  </div>
+</div>
+    
+      <div id="method_validateForm" class="api-item method public">
+  <header class="api-item-header">
+    <h3 class="api-item-title">
+      <a href="#method_validateForm">validateForm</a>
+    </h3>
+    
+    
+    
+    
+  </header>
+  <div class="api-item-meta">
+    
+      Defined in
+    
+    <a href="https://github.com/pandorajs/validate/blob/master/src/validate.js#L201">src/validate.js:201</a>
+  </div>
+  
+  <div class="api-item-entry">
+    <p>校验整个表单</p>
+
+    
+    
+  </div>
+</div>
+    
+  
+  
+  
+  
+</div></div>
+    
+<aside id="sidebar">
+  <strong class="sidebar-title">Projects</strong>
+  <a href="/api/class/classes/class.html" class="sidebar-link">Class</a>
+  <a href="/api/events/classes/events.html" class="sidebar-link">Events</a>
+  <a href="/api/base/classes/base.html" class="sidebar-link">Base</a>
+  <a href="/api/widget/classes/widget.html" class="sidebar-link">Widget</a>
+  <a href="/api/overlay/classes/overlay.html" class="sidebar-link">Overlay</a>
+  <a href="/api/dialog/classes/dialog.html" class="sidebar-link">Dialog</a>
+  <a href="/api/validate/classes/validate.html" class="sidebar-link current">Validate</a>
+  <strong class="sidebar-title">Classes</strong>
+  
+    <a href="/api/validate/classes/Validate.html" class="sidebar-link current">Validate</a>
+  
+</aside>
+  </div>
+</article>
+  <footer id="footer">
+  <div class="outer">
+    <div class="inner">
+      &copy; 2014 <a href="http://zespia.tw">SkyArrow</a><br>
+      Background: <a href="http://subtlepatterns.com/shattered/" target="_blank">Shattered</a> by <a href="http://luukvanbaars.com/" target="_blank">Luuk van Baars</a>
+    </div>
+  </div>
+</footer>
+<script src="//ajax.googleapis.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
+<script src="/js/script.js"></script>
+<script type="text/javascript" src="https://apis.google.com/js/plusone.js"></script>
+</body>
+</html>
