@@ -70,7 +70,7 @@
 <div class="page-entry">
   <h2 class="api-section-title">Description</h2>
   <p>基类</p>
-<p>扩展 Events 与 Aspect (AOP)</p>
+<p>实现 事件订阅 与 Aspect (AOP)</p>
 
   
     <h2 class="api-section-title">Constructor</h2>
@@ -93,7 +93,7 @@
   
   <div class="api-item-entry">
     <p>基类</p>
-<p>扩展 Events 与 Aspect (AOP)</p>
+<p>实现 事件订阅 与 Aspect (AOP)</p>
 
     
     
@@ -117,11 +117,11 @@
     
       Defined in
     
-    <a href="https://github.com/pandorajs/base/blob/master/src/base.js#L172">src/base.js:172</a>
+    <a href="https://github.com/pandorajs/base/blob/master/src/base.js#L195">src/base.js:195</a>
   </div>
   
   <div class="api-item-entry">
-    <p>销毁当前组件对象</p>
+    <p>销毁当前组件实例</p>
 
     
     
@@ -146,7 +146,7 @@
     
       Defined in
     
-    <a href="https://github.com/pandorajs/base/blob/master/src/base.js#L133">src/base.js:133</a>
+    <a href="https://github.com/pandorajs/base/blob/master/src/base.js#L156">src/base.js:156</a>
   </div>
   
   <div class="api-item-entry">
@@ -163,7 +163,7 @@
               <span class="api-item-flag optional">optional</span>
             
             
-              <p>订阅事件列表</p>
+              <p>事件订阅列表</p>
 
             
           </li>
@@ -201,11 +201,11 @@
     
       Defined in
     
-    <a href="https://github.com/pandorajs/base/blob/master/src/base.js#L29">src/base.js:29</a>
+    <a href="https://github.com/pandorajs/base/blob/master/src/base.js#L51">src/base.js:51</a>
   </div>
   
   <div class="api-item-entry">
-    <p>初始化函数，将自动执行；实现事件自动订阅与初始化参数</p>
+    <p>初始化函数，将自动执行；执行参数初始化与订阅事件初始化</p>
 
     
       <h4 class="api-item-subtitle">Parameters</h4>
@@ -245,11 +245,11 @@
     
       Defined in
     
-    <a href="https://github.com/pandorajs/base/blob/master/src/base.js#L67">src/base.js:67</a>
+    <a href="https://github.com/pandorajs/base/blob/master/src/base.js#L89">src/base.js:89</a>
   </div>
   
   <div class="api-item-entry">
-    <p>获取初始化后的数据/参数，支持多级获取，如：this.option(‘rules/remote’)</p>
+    <p>存取初始化后的数据/参数，支持多级存取，<br>如：this.option(‘rules/remote’) 对应于 { rules: { remote: … } }</p>
 
     
       <h4 class="api-item-subtitle">Parameters</h4>
@@ -326,7 +326,7 @@
     
       Defined in
     
-    <a href="https://github.com/pandorajs/base/blob/master/src/base.js#L51">src/base.js:51</a>
+    <a href="https://github.com/pandorajs/base/blob/master/src/base.js#L73">src/base.js:73</a>
   </div>
   
   <div class="api-item-entry">
@@ -383,7 +383,7 @@
     
       Defined in
     
-    <a href="https://github.com/pandorajs/base/blob/master/src/base.js#L43">src/base.js:43</a>
+    <a href="https://github.com/pandorajs/base/blob/master/src/base.js#L65">src/base.js:65</a>
   </div>
   
   <div class="api-item-entry">
